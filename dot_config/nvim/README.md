@@ -4,15 +4,15 @@ Install Neovim 0.5 or greater
 
 # Dependencies
 
-## Package Manager
+## Paq Nvim package manager
+https://github.com/savq/paq-nvim/
 
-paq-nvim. 
+## Patched font
 
-`git clone https://github.com/savq/paq-nvim.git 
-    "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/pack/paqs/opt/paq-nvim`
+- install any patched font from https://www.nerdfonts.com/ on the OS where nvim is used.
+- If using windows or wsl, install it for windows.
 
-## WSL
-If using WSL, make sure that autocrlf is set to false for global git config so that downloaded plugins will work
+
 
 ## Treesitter
 
@@ -41,3 +41,11 @@ Install Language Servers for languages to use, for example JS/TS and diagnostics
 ## Telescope
 
 RipGrep or some other grep tool must be installed even though the README states it as optional
+    
+    
+    
+## Troubleshooting
+    
+    
+### WSL
+If using WSL, make sure that autocrlf is set to false for global git config so that downloaded plugins will work
