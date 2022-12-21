@@ -41,8 +41,10 @@ Install Language Servers for languages to use, for example JS/TS and diagnostics
 ## Telescope
 
 RipGrep or some other grep tool must be installed even though the README states it as optional
-    
-    
+
+### https://github.com/nvim-telescope/telescope-fzf-native.nvim
+
+gcc and make   
     
 ## Troubleshooting
     
